@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>rviz2_plugin_samples</name>
+  <version>0.0.0</version>
+  <description>The sample_rviz_plugin package</description>
+
+  <maintainer email="daegyu93@telelian.com">Your Name</maintainer>
+
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rviz_common</build_depend>
+  <build_depend>rviz_default_plugins</build_depend>
+  <exec_depend>rviz_common</exec_depend>
+  <exec_depend>rviz_default_plugins</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <rviz2 plugin="plugin_description.xml"/>
+  </export>
+</package>

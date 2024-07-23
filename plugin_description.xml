@@ -1,0 +1,8 @@
+<library path="rviz2_plugin_samples">
+  <class name="rviz2_plugin_samples/ButtonPanel" type="rviz2_plugin_samples::ButtonPanel" base_class_type="rviz_common::Panel">
+    <description>
+        A simple RViz panel with a button.
+    </description>
+  </class>
+
+</library>
